@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+	font-family: 'Arvo', sans-serif;
+	background: url("./Images/backgroundportfolio.jpeg") no-repeat center center fixed; 
+ height: 100vh;
+ max-width: auto;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+	}
+
+
+
+
+.fontbolder {
+font-weight: bolder;
+font-size: 	1rem;
+}
+
+
+.bgcontainer{
+
+	opacity: 50%;
+}
+
+.introheader{
+
+
+
+
+}
+
+.fontheader{
+font-family: 'QuickSand', sans-serif;
+margin-bottom: .8rem;
+
+}
+
+
+.fonttextbox{
+
+margin-top: 2rem;
+
+}
+
+.navcustom{
+
+	text-align: center;
+	text-size: 50;
+}
+
+
+.carouselmargin{
+
+	padding: 75px;
+	
+	
+}
+
+.fontprojects{
+margin-bottom: .8rem;
+text-align: center;
+
+}
+
+.fontchange{
+font-family: 'QuickSand', sans-serif;
+font-size: 18px;
+
+}
+
+.imagesizing{
+width: 700px;
+max-width: 100%;
+height:  35rem;
+
+}
+
+
+
