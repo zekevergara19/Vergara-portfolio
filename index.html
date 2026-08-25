@@ -1,213 +1,162 @@
-		<!DOCTYPE html>
-		<html lang="en">
-		<head>
-			<meta charset="UTF-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zeke Vergara — Business Systems Engineer focused on systems architecture, full-stack development, automation, and operational problem solving.">
+  <title>Zeke Vergara | Business Systems Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav-wrap">
+      <a class="brand" href="#top">ZV</a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#approach">Approach</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-	<!-- responsive meta tag -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <main id="top">
+    <section class="hero wrap">
+      <p class="eyebrow">Business Systems Engineer · Systems Architecture · Automation</p>
+      <h1>I turn operational pain points into systems that work.</h1>
+      <p class="hero-copy">I analyze business processes, identify bottlenecks, design practical system architecture, and build the software and automations needed to make work faster, more measurable, and easier to manage.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#work">View selected work</a>
+        <a class="button secondary" href="https://github.com/zekevergara19" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+      <div class="focus-grid" aria-label="Core focus areas">
+        <div><span>01</span><strong>Business Analysis</strong><p>Translate messy workflows into clear rules, requirements, and measurable outcomes.</p></div>
+        <div><span>02</span><strong>Systems Architecture</strong><p>Design the boundaries, data flows, services, and operational controls behind the solution.</p></div>
+        <div><span>03</span><strong>Implementation</strong><p>Build and ship web applications, internal tools, integrations, and automations.</p></div>
+      </div>
+    </section>
 
-	<!-- CSS -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <section class="section wrap" id="work">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2>Systems built around real business problems.</h2>
+      </div>
 
-	<!--External Styling link-->
-		<link rel="stylesheet" href="./style.css">	
+      <article class="project featured">
+        <div class="project-topline"><span>Vacation rental platform</span><span>Full-stack · Architecture · Operations</span></div>
+        <h3>Paradise Villas & Vacations Platform</h3>
+        <p class="project-lead">A modern vacation-rental platform combining public marketing, lead generation, internal administration, guest workflows, and owner-facing functionality.</p>
+        <div class="project-grid">
+          <div>
+            <h4>System</h4>
+            <p>Next.js and React frontend, Django/DRF backend, Supabase data layer, Cloudflare R2 media, and Vercel/Render deployment. Privileged data access stays behind the backend rather than exposing service credentials to the browser.</p>
+          </div>
+          <div>
+            <h4>My focus</h4>
+            <p>Operational workflow design, frontend and backend implementation, search and villa filtering, availability logic, admin workflows, lead-generation features, reliability improvements, and the gradual replacement of manual processes with internal systems.</p>
+          </div>
+        </div>
+        <ul class="tags">
+          <li>Next.js</li><li>React</li><li>Django</li><li>Supabase</li><li>Cloudflare R2</li><li>Business Process Design</li>
+        </ul>
+      </article>
 
+      <article class="project">
+        <div class="project-topline"><span>Internal operations</span><span>Automation · Queueing · Accountability</span></div>
+        <h3>PVV Admin Task & Inquiry System</h3>
+        <p class="project-lead">An operations system that turns incoming customer email and internal work into structured, prioritized queues instead of relying on scattered manual follow-up.</p>
+        <div class="project-grid">
+          <div>
+            <h4>Problem</h4>
+            <p>Operational work needed clearer ownership, prioritization, follow-up discipline, and reporting. The system had to support real staff workflows rather than behave like a generic task manager.</p>
+          </div>
+          <div>
+            <h4>Solution</h4>
+            <p>A React dashboard with Firebase Auth and Firestore, backed by Node/Express services that ingest Gmail, classify tickets using deterministic rules, prioritize queues, and track deadline-based internal tasks and reminders.</p>
+          </div>
+        </div>
+        <ul class="tags">
+          <li>React</li><li>Node.js</li><li>Express</li><li>Firestore</li><li>Gmail Integration</li><li>Workflow Automation</li>
+        </ul>
+      </article>
 
-	<!--Font-->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@100;400&family=Open+Sans&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@100;400&family=Open+Sans&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+      <div class="project-row">
+        <article class="project compact">
+          <div class="project-topline"><span>Client work</span></div>
+          <h3>WordPress Development & Technical Support</h3>
+          <p>Site maintenance, responsive fixes, integrations, forms, technical troubleshooting, DNS-related support, performance improvements, and implementation work for client websites.</p>
+          <ul class="tags"><li>WordPress</li><li>HTML/CSS</li><li>Integrations</li><li>Technical Support</li></ul>
+        </article>
 
-			<title>My Portfolio</title>
-		<body class= "introheader">
+        <article class="project compact">
+          <div class="project-topline"><span>Web project</span></div>
+          <h3>Impact & Speed / Velocity</h3>
+          <p>A public-facing web project deployed through GitHub Pages, representing earlier frontend and website implementation work.</p>
+          <div class="inline-links"><a href="https://github.com/zekevergara19/impactandspeed.github.io" target="_blank" rel="noreferrer">View repository →</a></div>
+        </article>
+      </div>
+    </section>
 
-			<div class="container-fluid">
+    <section class="section contrast" id="approach">
+      <div class="wrap">
+        <div class="section-heading narrow">
+          <p class="eyebrow">How I work</p>
+          <h2>Software comes after understanding the operation.</h2>
+          <p>I do not start with a framework and search for a use case. I start with the business process: what is slow, repetitive, error-prone, invisible to management, or difficult for the team to execute consistently.</p>
+        </div>
+        <div class="process-grid">
+          <div><span>01</span><h3>Map the workflow</h3><p>Understand people, handoffs, data, exceptions, and existing tools.</p></div>
+          <div><span>02</span><h3>Define the rules</h3><p>Convert business logic into requirements, validations, states, and measurable outcomes.</p></div>
+          <div><span>03</span><h3>Design the system</h3><p>Choose the simplest architecture that can support the workflow reliably.</p></div>
+          <div><span>04</span><h3>Build and improve</h3><p>Implement, test against real usage, fix friction, and automate where the economics make sense.</p></div>
+        </div>
+      </div>
+    </section>
 
-					
-	<!-- Introduction Container Start -->
-				
+    <section class="section wrap" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Capabilities</p>
+        <h2>Strategy through implementation.</h2>
+      </div>
+      <div class="skills-grid">
+        <div><h3>Systems & Analysis</h3><p>Business process analysis, requirements definition, workflow architecture, data-flow design, operational controls, automation design.</p></div>
+        <div><h3>Application Development</h3><p>Next.js, React, JavaScript, HTML, CSS, Django, Python, Node.js, Express, REST APIs.</p></div>
+        <div><h3>Data & Infrastructure</h3><p>Supabase, Firestore, Firebase, Cloudflare R2, Google Cloud, Vercel, Render, GitHub workflows.</p></div>
+        <div><h3>Web Platforms</h3><p>WordPress, website maintenance, integrations, responsive implementation, technical troubleshooting, SEO-supporting technical work.</p></div>
+      </div>
+    </section>
 
-	<div class= "min-vh-100">
+    <section class="section wrap about">
+      <div class="section-heading narrow">
+        <p class="eyebrow">About</p>
+        <h2>Zeke Vergara</h2>
+        <p>My work has moved beyond building pages. I operate between business analysis and engineering: understanding how a company actually works, identifying where technology can remove friction, and carrying the solution through architecture and implementation.</p>
+        <p>My engineering background also includes an internationally recognized university design project, an early example of the same pattern I still follow today: identify a practical problem, design around constraints, and make the idea work in the real world.</p>
+      </div>
+    </section>
 
-						<!-- HTML Card Start -->
-		<div class= "bg-transparent col-xl-4 mb-5 mb-xl-0 p-5 p-5" id="Capstone1">
-			<div>
-			
-					<h1 class="fontheader">Hello! Im Zeke Vergara</h1>
-					<h5>Web Designer/Developer</h5>
-					<p  class="fonttextbox">I help enterprises build and optimize websites according to their needs</p>
-					<a class="btn btn-secondary text-dark" href="#aboutme" role="button">About Me</a>
+    <section class="section contact" id="contact">
+      <div class="wrap contact-inner">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Have a process that should work better?</h2>
+          <p>I’m interested in web systems, internal tools, workflow automation, and technical projects where the problem is bigger than a list of pages to build.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:exekielvergara@gmail.com">exekielvergara@gmail.com</a>
+          <a href="https://www.linkedin.com/in/iamzekevergara19" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/zekevergara19" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.upwork.com/freelancers/~01fa47eb60abebb5f3" target="_blank" rel="noreferrer">Upwork</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-
-			</div>
-		</div>
-	</div>
-
-		
-
-<!--About Me Start-->
-<div class="min-vh-100">
-<div class="mt-md-5" id="aboutme">
-						<div class="offset-xl-3 col-lg-7">
-							<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-								<ol class="carousel-indicators">
-									<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-									<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-									<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-								</ol>
-								<div class="carousel-inner">
-									<div class="carousel-item active">
-										<img src="./Images/pic1.jpeg" class="d-block w-60 imagesizing" alt="...">
-										<div class="carousel-caption d-none d-md-block text-primary">
-											<h5>Hi My Name is Exekiel Anthony Vergara</h5>
-											<p>My interest are playing online games, playing chess and watching videos</p>
-										</div>
-									</div>
-									<div class="carousel-item">
-										<img src="./Images/pic3.jpeg" class="d-block w-60 imagesizing" alt="...">
-										<div class="carousel-caption d-none d-md-block text-light">
-											<h5>1st Job</h5>
-											<p>I worked at a wiring harness company in Pilipinas Kyoritsu Inc as a document controller from 2013 to 2014.</p>
-										</div>
-									</div>
-									<div class="carousel-item">
-										<img src="./Images/pic2.jpeg" class= "d-block w-60 imagesizing" alt="...">
-										<div class="carousel-caption d-none d-md-block text-light">
-											<h5>My professor  receiving our award after presenting our Design Project</h5>
-											<p>I have represented Lyceum of the Philippines University in the International Symposium on Novel and Sustainable Technology 2017 and we have won First Prize in Oral Competition for our design project way back 2018.</p>
-										</div>
-									</div>
-								</div>
-								<button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-									<span class="sr-only">Previous</span>
-								</button>
-								<button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-									<span class="carousel-control-next-icon" aria-hidden="true"></span>
-									<span class="sr-only">Next</span>
-								</button>
-							</div>
-						</div>
-					</div>
-
-			<h3 class="fontprojects">My Education and Experience</h3>
-			<p class="text-dark fontchange ">I have experience in creating business models and basic applications mostly used by small to medium business enterprises to help them manage their business better. I am also an expert in Microsoft applications, more particularly Word, Excel, Powerpoint, Visio, and Publisher. I have also know how to use Microsoft Outlook, Slack and Asana, along with Google applications like Google My Business, Sheets, Documents, Calendars, Slides, Hangouts and Meet.
-
-			I love doing many tasks and handle pressure well. I enjoy collaborating with my teammates to achieve goals.</p>	
-			<a class="btn btn-secondary text-dark" href="#projects" role="button">Projects</a>
-			</div>	
-<!--About Me End-->
-
-<!--Main Section Start-->
-<div class="min-vh-100" id="projects">
-<!--Projects Start-->
-<div class="d-lg-flex p-md-5 min-vh-100">
-
-	<!--Capstone 1 Start-->
-						<div class="card bg-dark col-xl-4 mb-2 mb-xl-0">
-
-						  <div class="card-body">
-						  	<a href="#Capstone1">Capstone 1</a>
-						    <h6 class="card-subtitle mb-2 text-muted">Front End Design</h6>
-						    <p class="card-text"></p>
-						    <a href="#" class="card-link">Link to Projects</a>
-						     </div>
-
-
-							</div>
-<!--Capstone 1 End-->
-
-<!--Capstone 2 Start-->
-						<div class="card bg-dark col-xl-4 mb-2 mb-xl-0 ml-xl-5">
-						  <div class="card-body">
-						<a href="">Capstone 2</a>						  
-						    <h6 class="card-subtitle mb-2 text-muted">Back End Development</h6>
-						    <p class="card-text"></p>
-						    <a href="#" class="card-link">Link to Projects</a>
-						     </div>
-							</div>
-<!--Capstone 2 End-->
-<!--Capstone 3-->
-	<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 ml-xl-5">
-						  <div class="card-body">
-						  	<a href="">Capstone 3</a>
-						   <h6 class="card-subtitle mb-2 text-muted">Full Stack Design and Development</h6>
-						    <p class="card-text"></p>
-						    <a href="#" class="card-link">Link to Projects</a>
-						     </div>
-							</div>
-
-						</div>
-<!--Capstone 3-->
-<!-- Other Project Container End-->
-
-
-
-			
-<a class="btn btn-secondary text-dark" href="#contacts	" role="button">Contacts</a>
-			</div>
-
-
-			</div>
-	
-<!--Projects End-->
-
-<!--Contact Me Start-->
-<!--Contract Me End
-<!--Main Section End-->
-	</div>
-
-<!--Contacts-->
-
-<div class="min-vh-100 container-fluid" id="contacts">
-	
-	
-<div class="p-3 d-md-flex justify-content-around bgcontainer ">
-
-	<div class="bg-dark text-white p-3">Email~ exekielvergara@gmail.com</div>
-	<div class="bg-dark text-white p-3"> <a class="text-white" href="https://www.facebook.com/zekevergara19/">Facebook</div>
-	<div class="bg-dark text-white  p-3"> <a class="text-white" href="https://www.upwork.com/freelancers/~01fa47eb60abebb5f3">Upwork</div>
-	<div class="bg-dark p-3"><a class="text-white" href="https://ph.linkedin.com/in/iamzekevergara19">LinkedIn</div>
-	
-
-
-</div>
-
-
-
-</div>
-
-
-	<!--NavBar Start-->
-				
-	<nav class="navbar navbar-expand-lg  navbar-dark bg-dark bgcontainer fontbolder" id="navigation" >
-	
-		<div class="container-fluid">	
-			<div class="row">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link p-1" href="#aboutme">About Me <span class="sr-only">(current)</span></a>
-				</li>
-				
-				<li class="nav-item">
-					<a class="nav-link p-1" href="#projects">Projects</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link p-1" href="#contacts">Contacts</a>
-				</li>
-			</ul>
-		</div>
-		</div>
-	</nav>
-
-	<!--NavBar End-->
-
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
-	</script>
-		</body>
-		</html>
+  <footer class="site-footer">
+    <div class="wrap"><span>© 2026 Zeke Vergara</span><span>Business Systems Engineering · Web · Automation</span></div>
+  </footer>
+</body>
+</html>
